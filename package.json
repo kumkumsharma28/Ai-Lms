@@ -1,0 +1,11 @@
+{
+  "name": "ai-lms-root",
+  "version": "1.0.0",
+  "description": "AI-Based Learning Management System",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "init-db": "cd backend && node config/initDb.js"
+  }
+}
